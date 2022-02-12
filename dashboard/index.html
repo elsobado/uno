@@ -147,7 +147,8 @@
        
         
         <div id="native-balances" class="col-md-6 container">
-          <h2>Application</h2>
+
+          <h2>Transfering Native</h2>
           <div class="mb-3">
             
             <input placeholder="amount to send" type="email" class="form-control" id="native-amount" aria-describedby="emailHelp">
@@ -159,7 +160,43 @@
           </div>
          
           <button id="transfer-native" type="submit" class="btn btn-primary">Submit</button>
+        
+        
+        
         </div>
+         <hr>
+        <div id="erc20" class="col-md-6 container">
+
+          <h2>Transfering ERC20</h2>
+          <div class="mb-3">
+            
+            <input placeholder="amount to send" type="text" class="form-control" id="erc20-amount" aria-describedby="emailHelp">
+           
+          </div>
+          <div class="mb-3">
+            
+            <input placeholder="address to send to  " type="text" class="form-control" id="erc20-address">
+          </div>
+
+       
+          <div class="mb-3">
+            
+            <input placeholder="Contract address  " type="text" class="form-control" id="erc20-contract">
+          </div>
+
+          <div class="mb-3">
+            
+            <input placeholder="decimals " type="text" class="form-control" id="erc20-decimals">
+          </div>
+
+          <button id="transfer-erc20" type="submit" class="btn btn-primary">Submit</button>
+        
+        
+         
+        
+        </div>
+        
+
       </main>
     </div>
   </div>
